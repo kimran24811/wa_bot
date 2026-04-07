@@ -7,7 +7,7 @@
     "dev:server": "tsx watch server/index.ts",
     "dev:client": "vite client",
     "build": "npm run build:client && npm run build:server",
-    "build:client": "vite build --config client/vite.config.ts --root client --outDir ../dist/public",
+    "build:client": "vite build --config client/vite.config.ts",
     "build:server": "esbuild server/index.ts --bundle --platform=node --target=node18 --outfile=dist/server.cjs --external:@whiskeysockets/baileys --external:sharp",
     "start": "node dist/server.cjs",
     "db:push": "drizzle-kit push"
