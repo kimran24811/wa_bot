@@ -14,7 +14,11 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "autoprefixer": "^10.4.19",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
