@@ -19,7 +19,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "drizzle-orm": "^0.30.10",
-    "esbuild": "^0.25.0",
+    "esbuild": "0.27.7",
     "express": "^4.19.2",
     "imapflow": "^1.0.162",
     "jsonwebtoken": "^9.0.2",
